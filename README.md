@@ -6,11 +6,11 @@
 3. Подключить jquery до макросов, вставляющих скрипты edit-in-place
 4. В шаблоне вместо
 ```
-    <xsl:value-of select="document('udata://system/includeQuickEditJs')/udata" disable-output-escaping="yes"/>
+<xsl:value-of select="document('udata://system/includeQuickEditJs')/udata" disable-output-escaping="yes"/>
 ```
 использовать
 ```
-    <xsl:value-of select="document('udata://custom/includeQuickEditJs')/udata" disable-output-escaping="yes"/>
+<xsl:value-of select="document('udata://custom/includeQuickEditJs')/udata" disable-output-escaping="yes"/>
 ```
 
 Пример шаблона:
